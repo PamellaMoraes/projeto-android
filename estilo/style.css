@@ -1,11 +1,7 @@
 @charset "UTF-8";
 
-@font-face 
-    {font-family: 'idroid-bold';
-    src: url('/fontes/idroid-bold.otf') format('opentype'), url('fontes/idroid-bold.ttf') format(truetype)}
-    
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 /* variável no css */
 :root{
  --cor0:#c8e5d5;
