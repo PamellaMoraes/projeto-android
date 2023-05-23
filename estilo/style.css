@@ -51,12 +51,12 @@ padding-top: 40px;}
 
     article>h1{
         color:var(--cor4);
-        font-family: var(--font-idroid),var(--font-padrao);
+        font-family:var(--font-idroid);
         font-weight: bolder;}
 
     article>h2{color:var(--cor4);
     font-family: var(--font-idroid);
-    font-weight: normal;
+    font-weight: bolder;
     background-image: linear-gradient(to right,var(--cor1), rgba(255, 255, 255, 0.728));
     text-indent: 6px;}
 
@@ -144,7 +144,8 @@ aside{
 
     aside ul{
         list-style-position: inside;
-        columns: 2;}
+        columns: 2;
+        list-style-type: '\00A0\000A0';}
 
     aside a{
         color: var(--cor4);
