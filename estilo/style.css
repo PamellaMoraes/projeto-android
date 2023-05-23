@@ -1,5 +1,10 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+@font-face 
+    {font-family: 'idroid';
+    src: url('/fontes/idroid.otf') format('opentype'),url('/fontes/idroid.ttf') format('truetype');
+    font-weight: normal;}
 
 
 /* variável no css */
@@ -11,7 +16,7 @@
  --cor4:#063D1E;
 --font-padrao:arial, Verdana, Helvetica, Sans-serif;
 --fonte-destaque:'Bebas Neue','cursive';
---font-idroid:"idroid-bold";}
+--font-idroid:'idroid',"arial bold"}
 
 /* configuração global do meu site para todos os elementos(caixas) */
 *{margin:0px;
