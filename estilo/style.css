@@ -16,7 +16,7 @@
  --cor4:#063D1E;
 --font-padrao:arial, Verdana, Helvetica, Sans-serif;
 --fonte-destaque:'Bebas Neue','cursive';
---font-idroid:"idroid",'cursive';}
+--font-idroid:"idroid",'arial';}
 
 /* configuração global do meu site para todos os elementos(caixas) */
 *{margin:0px;
@@ -47,6 +47,7 @@ padding-top: 40px;}
     max-width: 600px;
     padding-right: 10px;
     padding-left: 10px;
+    padding-bottom: 50px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.275);}
 
     article>h1{
