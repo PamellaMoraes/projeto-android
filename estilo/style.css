@@ -51,13 +51,13 @@ padding-top: 40px;}
 
     article>h1{
         color:var(--cor4);
-        font-family: var(--font-idroid), Arial, Helvetica, sans-serif;
+        font-family: var(--font-idroid),var(--font-padrao);
         font-weight: bolder;}
 
     article>h2{color:var(--cor4);
     font-family: var(--font-idroid);
     font-weight: normal;
-    background-image: linear-gradient(to right,var(--cor2), rgba(255, 255, 255, 0.728));
+    background-image: linear-gradient(to right,var(--cor1), rgba(255, 255, 255, 0.728));
     text-indent: 6px;}
 
 nav{background-color: var(--cor4);
@@ -98,7 +98,7 @@ border-bottom-right-radius:10px ;}
     main a{text-decoration: none;
     font-weight: bold;
     color:#042412;
-    background-color: var(--cor2);
+    background-color: var(--cor1);
     padding:3px ;}
 
     main a:hover{text-decoration: underline;
@@ -144,8 +144,7 @@ aside{
 
     aside ul{
         list-style-position: inside;
-        columns: 2;
-        list-style-type: '🗹\00A0\000A0';}
+        columns: 2;}
 
     aside a{
         color: var(--cor4);
