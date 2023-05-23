@@ -144,7 +144,7 @@ aside{
 
     aside ul{
         list-style-position: inside;
-        columns: 3;
+        columns: 2;
         list-style-type: '  \00A0\000A0';}
 
     aside a{
