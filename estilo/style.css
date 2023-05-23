@@ -5,7 +5,7 @@
 @font-face 
     {font-family: 'idroid';
     src: url('/fontes/idroid.otf') format('opentype');
-    font-weight: normal;}
+    font-weight: bolder;}
 
 /* variável no css */
 :root{
@@ -51,8 +51,8 @@ padding-top: 40px;}
 
     article>h1{
         color:var(--cor4);
-        font-family: var(--font-idroid);
-        font-weight: normal;}
+        font-family: var(--font-idroid), Arial, Helvetica, sans-serif;
+        font-weight: bolder;}
 
     article>h2{color:var(--cor4);
     font-family: var(--font-idroid);
