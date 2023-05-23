@@ -146,8 +146,7 @@ aside{
     aside ul{
         list-style-position: inside;
         columns: 2;
-        font-size: larger;
-        list-style-type: ' \00A0\000A0 ';}
+        list-style-type: '  \00A0\000A0 ';}
 
     aside a{
         color: var(--cor4);
