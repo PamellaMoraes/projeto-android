@@ -1,12 +1,11 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url(https://www.dafont.com/pt/idroid.font);
 @font-face 
-    {font-family: 'idroid';
-    src: url('/fontes/idroid.otf') format('opentype');
-    font-weight: bolder;}
+    {font-family: 'idroid-bold';
+    src: url('/fontes/idroid-bold.otf') format('opentype'), url('fontes/idroid-bold.ttf') format(truetype)}
+    
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 /* variável no css */
 :root{
  --cor0:#c8e5d5;
@@ -16,7 +15,7 @@
  --cor4:#063D1E;
 --font-padrao:arial, Verdana, Helvetica, Sans-serif;
 --fonte-destaque:'Bebas Neue','cursive';
---font-idroid:"idroid",'arial';}
+--font-idroid:"idroid-bold";}
 
 /* configuração global do meu site para todos os elementos(caixas) */
 *{margin:0px;
@@ -47,7 +46,7 @@ padding-top: 40px;}
     max-width: 600px;
     padding-right: 10px;
     padding-left: 10px;
-    padding-bottom: 45px;
+    padding-bottom: 35px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.275);}
 
     article>h1{
@@ -147,15 +146,13 @@ aside{
         list-style-position: inside;
         columns: 2;
         font-size: larger;
-        list-style-type: '  \00A0\000A0';}
+        list-style-type: '\00A0\000A0';}
 
     aside a{
         color: var(--cor4);
         font-style: italic;
         font-weight: bolder;
         background-color:var(--cor2);}
-
-
 
 footer{
     background-color:var(--cor4);
