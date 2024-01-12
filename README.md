@@ -17,3 +17,5 @@ Criado no curso em vídeo por Guanabara e recriado por Pamella Moraes.
 
 Licença:
 Sem licença específica. Uso livre para fins educacionais.
+
+Agradeço por conferir este projeto! Se tiver alguma dúvida ou feedback, sinta-se à vontade para entrar em contato pelo e-mail pamellamoraes.f@gmail.com .
